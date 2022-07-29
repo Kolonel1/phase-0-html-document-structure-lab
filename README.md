@@ -129,8 +129,6 @@ but also use a `<link>` tag. "Links" that you click on are located within the
 Most commonly, we'll use `<link>` to import CSS files. Go ahead and add the
 following inside your `head` element (don't forget to indent!):
 
-```html
-<link rel="stylesheet" type="text/css" href="style.css" >
 ```
 
 With a simple website, linking a single style sheet might work just fine. Often,
@@ -143,7 +141,7 @@ a series of `<link>` definitions like:
   rel="stylesheet"
   href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
 />
-<link rel="stylesheet" type="text/css" href="company.css" />
+<link rel="stylesheet" type="text/css" href="http://127.0.0.1:5500/my_list.html" />
 <link rel="stylesheet" type="text/css" href="engineering-department.css" />
 <link rel="stylesheet" type="text/css" href="project-x-launch.css" />
 <link rel="stylesheet" type="text/css" href="typography.css" />
